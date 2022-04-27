@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-btns {
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-title {
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.nav-title:hover {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+  transform: scale(1.1);
+  color: tomato;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team p {
+  margin: 0px 15px;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+  position: relative;
+}
+
+.team p::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: tomato;
+  transition: 0.3s all ease-in-out;
+}
+
+.team p:hover::after {
+  width: 50%;
+}
+
+.team p:hover {
+  transform: scale(1.1);
+}
+
+.sign-out-btn {
+  background-color: tomato;
+  color: white;
+  font-size: 14px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+.sign-out-btn:hover {
+  transform: scale(1.1);
+  box-shadow: tomato 0px 5px 15px;
+}
+
+.home-btn {
+  margin-right: 20px;
+  background-color: #29bf12;
+  color: white;
+  font-size: 14px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+.home-btn:hover {
+  transform: scale(1.1);
+  box-shadow: #29bf12 0px 5px 15px;
+}
+
+body {
+  width: 100%;
+  min-height: 90vh;
+  background-color: #f3f2f0;
+}
+
+main {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar-container {
+  width: 80%;
+  margin-top: 30px;
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weeks {
+  width: 200px;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 5px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 30px;
+  background-color: tomato;
+}
+
+.day {
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 160px;
+  height: 160px;
+  margin: 10px 0px;
+  background-color: white;
+  border: 1px solid tomato;
+}
+
+.day:hover {
+  transform: scale(1.1);
+  box-shadow: tomato 0px 5px 15px;
+}
+
+.day-active {
+  background-color: #90fd7f;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  flex: 1;
+}
+
+.rest-icon {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-png {
+  width: 50px;
+  height: 50px;
+}
+
+/*///////////////////////pop up screen///////////////////////*/
+.invisible {
+  display: none;
+}
+
+.visible {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 120vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.close-btn-container {
+  margin: 30px 0px;
+  align-self: flex-start;
+}
+
+.close-btn {
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+  text-align: left;
+  transition: 0.3s all ease-in-out;
+}
+
+.close-btn:hover {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+  color: tomato;
+}
+
+.content-text {
+  width: 100%;
+  height: 10vh;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-text p {
+  font-size: 18px;
+}
