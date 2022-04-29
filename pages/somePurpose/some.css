@@ -175,6 +175,7 @@ ul li {
   justify-content: flex-start;
   align-items: center;
   width: 60%;
+  font-family: "Poppins", sans-serif;
 }
 
 .downloader a {

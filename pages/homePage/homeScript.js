@@ -17,3 +17,13 @@ const somePurpose = document.getElementById("some-purpose");
 somePurpose.addEventListener("click", function () {
   location.href = "../somePurpose/some.html";
 });
+
+const campaignPlan = document.getElementById("campaign-plan-btn");
+campaignPlan.addEventListener("click", function () {
+  location.href = "../campaignPlan/campaign.html";
+});
+
+const toSeo = document.getElementById("seo-tov-guide-btn");
+toSeo.addEventListener("click", function () {
+  location.href = "../seo/seo.html";
+});
