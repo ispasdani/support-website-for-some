@@ -240,3 +240,81 @@ closePopupSeventeen.addEventListener("click", function () {
   tiktokBaaFacilities.classList.add("invisible");
   tiktokBaaFacilities.classList.remove("visible");
 });
+
+//////////////////////tiktok demo video//////////////////////
+const weekOneDayThree = document.getElementById("tiktok-aarhus-calendar");
+const tiktokAarhus = document.getElementById("tiktok-aarhus");
+weekOneDayThree.addEventListener("click", function () {
+  tiktokAarhus.classList.remove("invisible");
+  tiktokAarhus.classList.add("visible");
+});
+const closePopupEighteen = document.getElementById("close-btn-18");
+closePopupEighteen.addEventListener("click", function () {
+  tiktokAarhus.classList.add("invisible");
+  tiktokAarhus.classList.remove("visible");
+});
+
+//////////////////////tiktok demo video//////////////////////
+const weekTwoDayTwo = document.getElementById("instagram-takeover-calendar");
+const instagramTakeover = document.getElementById("instagram-takeover");
+weekTwoDayTwo.addEventListener("click", function () {
+  instagramTakeover.classList.remove("invisible");
+  instagramTakeover.classList.add("visible");
+});
+const closePopupNineteen = document.getElementById("close-btn-19");
+closePopupNineteen.addEventListener("click", function () {
+  instagramTakeover.classList.add("invisible");
+  instagramTakeover.classList.remove("visible");
+});
+
+//////////////////////tiktok demo video//////////////////////
+const weekTwoDaySix = document.getElementById("tiktok-italianHand-calendar");
+const tiktokItalianHand = document.getElementById("tiktok-italianHand");
+weekTwoDaySix.addEventListener("click", function () {
+  tiktokItalianHand.classList.remove("invisible");
+  tiktokItalianHand.classList.add("visible");
+});
+const closePopupTwenty = document.getElementById("close-btn-20");
+closePopupTwenty.addEventListener("click", function () {
+  tiktokItalianHand.classList.add("invisible");
+  tiktokItalianHand.classList.remove("visible");
+});
+
+//////////////////////tiktok demo video//////////////////////
+const weekThreeDayOne = document.getElementById("facebook-multimedia-calendar");
+const facebookMultimedia = document.getElementById("facebook-multimedia");
+weekThreeDayOne.addEventListener("click", function () {
+  facebookMultimedia.classList.remove("invisible");
+  facebookMultimedia.classList.add("visible");
+});
+const closePopupTwentyone = document.getElementById("close-btn-21");
+closePopupTwentyone.addEventListener("click", function () {
+  facebookMultimedia.classList.add("invisible");
+  facebookMultimedia.classList.remove("visible");
+});
+
+//////////////////////tiktok demo video//////////////////////
+const weekThreeDayThree = document.getElementById("tiktok-places-calendar");
+const tiktokPlaces = document.getElementById("tiktok-places");
+weekThreeDayThree.addEventListener("click", function () {
+  tiktokPlaces.classList.remove("invisible");
+  tiktokPlaces.classList.add("visible");
+});
+const closePopupTwentytwo = document.getElementById("close-btn-22");
+closePopupTwentytwo.addEventListener("click", function () {
+  tiktokPlaces.classList.add("invisible");
+  tiktokPlaces.classList.remove("visible");
+});
+
+//////////////////////tiktok demo video//////////////////////
+const weekFourDayFive = document.getElementById("instagram-deadline-calendar");
+const instagramDeadline = document.getElementById("instagram-deadline");
+weekFourDayFive.addEventListener("click", function () {
+  instagramDeadline.classList.remove("invisible");
+  instagramDeadline.classList.add("visible");
+});
+const closePopupTwentythree = document.getElementById("close-btn-23");
+closePopupTwentythree.addEventListener("click", function () {
+  instagramDeadline.classList.add("invisible");
+  instagramDeadline.classList.remove("visible");
+});

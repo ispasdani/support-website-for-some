@@ -268,7 +268,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  margin-left: 20%;
+  padding-left: 10%;
 }
 
 .downloader a {
@@ -287,4 +287,9 @@ main {
 .downloader a:hover {
   transform: scale(1.1);
   box-shadow: #3a86ff 0px 5px 15px;
+}
+
+.video {
+  height: 90vh;
+  margin-bottom: 50px;
 }
